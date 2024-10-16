@@ -1,2 +1,2 @@
-# ClinicaACGK
-Repositorio do grupo Gabiru
+# Clinica ACGK
+Repositorio do grupo Gabiruh
