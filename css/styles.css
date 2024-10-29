@@ -5,3 +5,35 @@
     border: 0px;
     box-sizing: border-box;
 }
+
+header {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: red;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+#circle {
+    position: relative;
+    height: 100px;
+    width: 120px;
+    background-color: red;
+    border-bottom-right-radius: 90%;
+    transform: translate(   0px,0px);
+}
+
+#cabecalho {
+    display: flex;
+    align-self: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+}
