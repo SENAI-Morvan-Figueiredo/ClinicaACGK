@@ -3,13 +3,6 @@ body {
     font-family:unset
  }
  
- header {
-     background-color: rgb(157, 155, 155);
-     color: white; 
-     padding: 10px; 
-     text-align: center; 
- }
- 
  nav {
      margin: 10px 0; 
  }
