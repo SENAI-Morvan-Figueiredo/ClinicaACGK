@@ -24,6 +24,7 @@ header {
 header a {
     border-radius: 10%;
     height: 100%;
+    transition:0.8s;
 }
 
 header a:hover {
