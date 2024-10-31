@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #18ABA1;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -117,6 +121,38 @@ li {
 }
 
 #epoca {
-    height: 150px;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 3em;
+    height: 200px;
     background-color: #86DAD5;
+    /*Borda*/
+    border-top: 3px solid #3b634c;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+#areas_de_atuacao {
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#areas_de_atuacao ul{
+    list-style: none;
+    width: 80%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#areas_de_atuacao ul li {
+    height: fit-content;
+    width: fit-content;
+    padding: 5px;
+    background-color: red;
 }
