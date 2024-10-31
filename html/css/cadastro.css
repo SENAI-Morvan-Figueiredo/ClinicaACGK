@@ -27,7 +27,7 @@ body {
      backdrop-filter: blur(6.5px); 
      -webkit-backdrop-filter: blur( 6.5px );
      /**/
-     padding: 20px;
+     padding: 5px;
      /*Borda*/
      border-radius: 10px;
      border: 1px solid black;
