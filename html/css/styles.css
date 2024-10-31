@@ -117,6 +117,14 @@ li {
 }
 
 #epoca {
-    height: 150px;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 3em;
+    height: 200px;
     background-color: #86DAD5;
+    /*Borda*/
+    border-top: 3px solid #3b634c;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
 }
