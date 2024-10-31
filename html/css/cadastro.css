@@ -2,7 +2,7 @@
 
 body {
     overflow-y: hidden;
-    background-image:url(download.jfif) ;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.1), rgba(74, 74, 196, 0.1), rgba(98, 84, 152, 0.5)),url("download.jfif");
  }
  
  nav {
@@ -27,7 +27,7 @@ body {
      backdrop-filter: blur(6.5px); 
      -webkit-backdrop-filter: blur( 6.5px );
      /**/
-     padding: 20px;
+     padding: 5px;
      /*Borda*/
      border-radius: 10px;
      border: 1px solid black;
