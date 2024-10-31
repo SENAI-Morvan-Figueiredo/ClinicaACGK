@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 
 * {
     margin: 0px;
     border: 0px;
-    font-family: 'Fira Sans';
+    font-family: 'Poppins';
     box-sizing: border-box;
 }
 
@@ -37,16 +39,18 @@ header p {
 }
 
 header ul {
+    counter-reset: opcoes;
     display: flex;
     align-items: center;
     height: 100%;
     list-style: none;
     display: flex;
     justify-content: space-between;
-    width: clamp(30%,50%,40%);
+    width: clamp(10%,60%,50%);
 }
 
 li {
+    font: 'Fira Sans ';
     height: 70%;
 }
 
@@ -76,6 +80,8 @@ li {
 }
 
 #nome_clinica_imagem #imagem {
+    z-index: -2;
+    position:absolute;
     width: 60%;
     height: 500px;
     background-image: url(images/consultamed.jpg);
@@ -83,4 +89,29 @@ li {
     background-size: 100%;
     border-top-right-radius: 300px;
     border-bottom-right-radius: 300px;
+}
+
+#clinica {
+    padding-right: 10px;
+    color: black;
+    z-index: -3;
+    right: 1px;
+    width: inherit;
+    height: 500px;
+    background-color: #18ABA1;
+    /*Flexbox*/
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#clinica h2 {
+    font-size: 4.2em;
+}
+
+#clinica p {
+    font: 'Fira Sans';
+    width: 35%;
+    text-align: center;
 }
