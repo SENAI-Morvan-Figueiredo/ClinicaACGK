@@ -1,4 +1,7 @@
+@import url(styles.css);
+
 body {
+    overflow-y: hidden;
     background-image:url(download.jfif) ;
  }
  
@@ -18,9 +21,16 @@ body {
  }
  
  form {
-     background-color: rgba(255, 255, 255, 0.8); 
+    /*Flexbox*/
+     background-color: rgba(255, 255, 255, 0.6s);
+     /*Efeito de blur*/
+     backdrop-filter: blur(6.5px); 
+     -webkit-backdrop-filter: blur( 6.5px );
+     /**/
      padding: 20px;
+     /*Borda*/
      border-radius: 10px;
+     border: 1px solid black;
      display: inline-block;
  }
  
@@ -31,25 +41,28 @@ body {
  }
  
  input {
-     background-color:  rgb(157, 155, 155);
+     background-color:  rgb(206, 198, 198, 0.6s);
      margin-top: 40px; 
      padding: 10px;
      border: none;
      border-radius: 5px;
      width: 200px;
-     color: white;
+     color: rgb(0, 0, 0);
  }
  
  button {
      background-color: #000000;
      color: rgb(252, 252, 252);
      padding: 10px 20px;
-     border: none;
+     border: 1px solid black;
      border-radius: 5px;
      cursor: pointer;
+     transition: 0.6s;
  }
  
  button:hover {
-     background-color: #000000;
+    border: 1px solid black;
+    color: black;
+     background-color: white;
  }
  
