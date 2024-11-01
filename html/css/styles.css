@@ -61,7 +61,7 @@ li {
 #circle {
     position: relative;
     height: 100px;
-    width: 120px;
+    width: 10%;
     background-color: inherit;
     border-bottom-right-radius: 90%;
     transform: translate(0px,0px);
@@ -142,8 +142,8 @@ li {
 
 #areas_de_atuacao ul{
     list-style: none;
-    width: 80%;
-    height: 40%;
+    flex-wrap: wrap;
+    width: 25%;
     display: flex;
     align-items: center;
     justify-content: space-between;

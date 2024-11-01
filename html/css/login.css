@@ -3,7 +3,7 @@
 
 * {
     margin: 0px;
-    padding-right: 1px;
+    border: 0px;
     box-sizing: border-box; /* Garante que o padding e a borda sejam incluídos nas dimensões dos elementos */
     font-family: 'Poppins'; /* Define a fonte padrão da página */
   }
