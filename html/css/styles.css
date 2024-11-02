@@ -20,6 +20,7 @@ a {
 
 header {
     position: fixed;
+    z-index: 10;
     display: flex;
     height: 60px;
     width: 100%;
@@ -61,7 +62,7 @@ li {
 #circle {
     position: relative;
     height: 100px;
-    width: 120px;
+    width: 10%;
     background-color: inherit;
     border-bottom-right-radius: 90%;
     transform: translate(0px,0px);
@@ -125,6 +126,7 @@ li {
     padding-top: 5%;
     font-size: 3em;
     height: 200px;
+    margin-bottom: 80px;
     background-color: #86DAD5;
     /*Borda*/
     border-top: 3px solid #3b634c;
@@ -140,19 +142,149 @@ li {
     align-items: center;
 }
 
-#areas_de_atuacao ul{
-    list-style: none;
+#areas_de_atuacao #areas {
     width: 80%;
-    height: 40%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
+    display: grid;
+    grid-template-areas: 
+    "area1 area2 area3 area4"
+    "area5 area6 area7 area8";
+    column-gap: 30px;
+    row-gap: 20px;
+    height: 800px;
 }
 
-#areas_de_atuacao ul li {
+#areas_de_atuacao #areas div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: inherit;
+    /*Font*/
+    font-size: 1.2em;
+    font-family:'Poppins' ;
+    text-shadow:1px 1px 3px #a1efe9;
+    padding: 5px;
+    border-radius: 10px;
+    height: 120px;
+    width: 200px;
+    transition: 0.2s;
+}
+
+#areas_de_atuacao #areas div button {
+    content: agendar consulta;
+    width: inherit;
+    height: fit-content;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#areas_de_atuacao #areas div:hover {
+   box-shadow:5px 3px 10px #a1efe9,-5px 3px 10px #a1efe9,
+   5px -3px 10px #a1efe9,-5px -3px 10px #a1efe9;
+}
+
+#areas_de_atuacao #areas div button:hover {
+    background-color: black;
+    color: white;
+}
+
+#local {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: white;
+}
+
+#local div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#local div p {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#local div a {
+    font-size: 1.5em;
+    background-color: #18ABA1;
+    text-align: center;
+    width: 100%;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+
+}
+
+#doutores {
+    padding: 5px;
+    background-color: white;
+    height: 400px;
+    column-gap: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#doutores img {
+    border-radius: 100%;
+    border: 3px solid black;
+}
+
+#doutores .circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #18ABA1;
+}
+
+#extras {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+}
+
+#extras .botoes {
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px black;
+    font-size: 1.5em;
     height: fit-content;
     width: fit-content;
-    padding: 5px;
-    background-color: red;
+    padding: 10px;
+    background-color: #18ABA1;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    border-top: 1px solid black;
+    background-color: rgb(255, 255, 255);
+}
+
+footer div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+footer div div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div div ul {
+    list-style: none;
 }
