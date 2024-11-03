@@ -27,8 +27,10 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: red;
+    background-color: #18ABA1;
     box-shadow: 2px 0px 5px black;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
 header hr{
@@ -39,6 +41,16 @@ header #perfil_nome_wrapper {
     display: flex;
     flex-direction: row;
     align-items: center;
+    position: relative;
+}
+
+header #perfil_nome_wrapper::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    transform: translateY(40px);
+    width: 100%;
+    background-color: black;
 }
 
 header #tabs_conta_user_wrapper {
