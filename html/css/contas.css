@@ -95,6 +95,7 @@ header #logo_inicio_wrapper p img {
 }
 
 #content-wrapper .conteudo {
+    display: inline-block;
     box-sizing: border-box;
     height: 100%;
     width: 100%;
