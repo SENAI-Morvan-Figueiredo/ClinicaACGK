@@ -69,6 +69,10 @@ li {
     z-index: +1;
 }
 
+#circle img {
+    height: 100px;
+}
+
 #cabecalho {
     display: flex;
     align-self: flex-end;

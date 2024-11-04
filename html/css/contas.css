@@ -75,6 +75,7 @@ header #logo_inicio_wrapper p {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    justify-content: center;
 }
 
 header #logo_inicio_wrapper p img {
