@@ -211,7 +211,19 @@ input {
 /*---------Usuario-------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------*/
 /*---------ADM-------------------------------------------------------------------*/
+header #tabs_conta_adm_wrapper {
+    height: 50%;
+    font-size: 1.2em;
+}
 
+header #tabs_conta_adm_wrapper ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    transform: translate(-25px);
+    justify-content: space-between;
+}
 /*----------------------------------------------------------------------------*/
 
 
