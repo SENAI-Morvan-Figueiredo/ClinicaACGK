@@ -88,7 +88,14 @@ header #logo_inicio_wrapper p img {
     height: 60px;
 }
 
-/*----Parte do médico----*/
+/*-----------------------------Parte do passiente------------------------------------------*/
+
+
+
+/*---------------------------------------------------------------------*/
+
+
+/*------------------Parte do médico--------------------------------*/
 #content-wrapper {
     height: 100%;
     width: 100%;
@@ -132,7 +139,7 @@ header #logo_inicio_wrapper p img {
 }
 
 #consulta-online {
-    font-size: 2.5em;
+    font-size: 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -148,7 +155,7 @@ input {
     border-radius: 30px;
     margin: 20px;
     height: 50px;
-    width: 1000px;
+    width: 100%;
     border: 2px solid blue;
 }
 
@@ -156,5 +163,46 @@ input {
     background-color: #18ABA1;
     padding: 10px;
     border-radius: 20px;
+}
+
+#calendario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#diagnostico-m {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#diagnostico-m .diagnostico {
+    width: 80%;
+    height: fit-content;
+    background-color: #18ABA1;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px;
+    overflow: break-word;
+
+}
+
+#diagnostico-m .diagnostico p {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    top: 5px;
+    overflow: break-word;
+    position: relative;
+}
+
+#diagnostico-m .diagnostico hr {
+    border: 1px solid black;
+    height: 100px;
+    margin: 3px;
 }
 /*----------------------------------------------------------------------------*/
