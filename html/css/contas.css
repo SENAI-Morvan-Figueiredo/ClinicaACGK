@@ -60,6 +60,7 @@ header #perfil_nome_wrapper::after {
 
 header #tabs_conta_user_wrapper {
     height: 50%;
+    font-size: 1.5em;
 }
 
 header #tabs_conta_user_wrapper ul {
@@ -87,6 +88,7 @@ header #logo_inicio_wrapper p img {
     height: 60px;
 }
 
+/*----Parte do médico----*/
 #content-wrapper {
     height: 100%;
     width: 100%;
@@ -100,3 +102,59 @@ header #logo_inicio_wrapper p img {
     height: 100%;
     width: 100%;
 }
+
+#content-wrapper #pacientes {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#content-wrapper #pacientes #bloco {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+    width: 60%;
+    background-color: #18ABA1;
+    border-radius: 30px;
+}
+
+#content-wrapper #pacientes #bloco p {
+    grid-area: "head";
+    display: flex;
+    align-items: center;
+}
+
+#content-wrapper #pacientes #bloco #cale {
+    display: flex;
+    align-items: center;
+}
+
+#consulta-online {
+    font-size: 2.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#consulta-online form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border-radius: 30px;
+    margin: 20px;
+    height: 50px;
+    width: 1000px;
+    border: 2px solid blue;
+}
+
+#google-meet {
+    background-color: #18ABA1;
+    padding: 10px;
+    border-radius: 20px;
+}
+/*----------------------------------------------------------------------------*/
