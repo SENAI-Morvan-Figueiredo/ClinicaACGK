@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"> <!-- Define o conjunto de caracteres para UTF-8, que inclui acentuação e caracteres especiais -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura a largura da página para que seja responsiva -->
+  <title>Login - Clínica</title> <!-- Define o título da página que aparece na aba do navegador -->
+  <link rel="stylesheet" href="css/login.css"> <!-- Link para o arquivo de estilo CSS externo -->
+</head>
+<body>
+  <!-- Cabeçalho da página -->
+  <header>
+    <div style="width:16%;" id="circle"><img src="css/images/heart.png" alt=""></div>
+    <div id="cabecalho">
+      <p>Clinica</p>
+    </div>
+    <!-- Menu de navegação -->
+    <ul style="padding-right: 30px;">
+      <li><a href="">Quem Somos</a></li>
+      <li><a href="#">Clínicas</a></li>
+      <li><a href="#">Médicos</a></li>
+      <li><a href="#">Ajuda</a></li>
+    </ul>
+  </header>
+
+  <!-- Container principal para os formulários de cadastro e login -->
+  <div class="container">
+    <!-- Caixa de formulário de cadastro -->
+    <div class="form-box">
+      <form>
+        <label for="email">E-mail</label> <!-- Rótulo do campo de e-mail -->
+        <input type="email" id="email" placeholder="Digite seu e-mail"> <!-- Campo de entrada para e-mail -->
+        <button type="submit"><a href="cadastro.html">Cadastro</a></button> <!-- Botão de envio para o cadastro -->
+      </form>
+    </div>
+    <!-- Caixa de formulário de login -->
+    <div class="form-box">
+      <form>
+        <label for="email-login">E-mail</label> <!-- Rótulo do campo de e-mail -->
+        <input type="email" id="email-login" placeholder="Digite seu e-mail"> <!-- Campo de entrada para e-mail -->
+        <label for="senha">Senha</label> <!-- Rótulo do campo de senha -->
+        <input type="password" id="senha" placeholder="Digite sua senha"> <!-- Campo de entrada para senha -->
+        <button type="submit">Login</button> <!-- Botão de envio para o login -->
+        <a href="#" class="forgot-password">Esqueceu a senha?</a> <!-- Link para recuperação de senha -->
+      </form>
+    </div>
+  </div>
+</body>
+</html>

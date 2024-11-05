@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contas.css">
+    <title>Pagina do Médico</title>
+</head>
+<body>
+    <header>
+        <div id="perfil_nome_wrapper">
+            <img src="css/images/face.png" alt="usuario"><p>Perfil</p>
+        </div>
+        <div id="tabs_conta_user_wrapper">
+            <ul>
+                <li><a href="#pacientes">Pacientes</a></li>
+                <li><a href="#consulta-online">Consulta On-line</a></li>
+                <li><a href="#calendario-m">Calendário</a></li>
+                <li><a href="#diagnostico-m">Diagnóstico</a></li>
+            </ul>
+        </div>
+        <div id="logo_inicio_wrapper">
+                <p><img src="css/images/home.png" alt="casa-icone">Início</p>
+            <hr>
+            <p>Clínica Lorem<img style="height: 120px;" src="css/images/heart.png" alt="logo-clinica"></p>
+        </div>
+    </header>
+
+    <section id="content-wrapper">
+        <div id="pacientes" class="conteudo">
+            <h1>PACIENTES</h1>
+
+            <div id="bloco">
+                <p style="font-size: 1.5em;"><img src="css/images/face.png" alt="">Nome do Paciente</p>
+                <div id="cale">
+                    <img height="200px" src="css/images/calendario.png" alt="">
+                    <ul>
+                        <li>Idade:</li>
+                        <li>CPF:</li>
+                        <li>Número</li>
+                    </ul>
+                </div>
+                <button>Recomendar para outro Médico</button>
+            </div>
+        </div>
+        <div class="conteudo">
+            <div id="consulta-online">
+                <h1>Consulta On-line</h1>
+                <form action="">
+                    <label for="nome">Nome</label><input type="text">
+                    <label for="nome">CPF</label><input type="text">
+                    <label for="nome">Horário da Consulta</label><input type="text">
+                    <label for="nome">Protocolo da Consulta</label><input type="text">
+                </form>
+                <p id="google-meet">Google Meet</p>
+            </div>
+        </div>
+        <div class="conteudo">
+            <div id="calendario-m">
+                <h1>CALENDÁRIO</h1>
+
+            <div class="calendar-container">
+
+            <button class="nav-btn prev">◀</button>
+                
+                <div class="calendar">
+                    <div class="month-year">
+                        <span>2024 - JANEIRO</span>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>DOM</th>
+                                <th>SEG</th>
+                                <th>TER</th>
+                                <th>QUA</th>
+                                <th>QUI</th>
+                                <th>SEX</th>
+                                <th>SÁB</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Células do calendário -->
+                            <tr>
+                                <td></td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td>5</td>
+                                <td>6</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>8</td>
+                                <td>9</td>
+                                <td>10</td>
+                                <td>11</td>
+                                <td>12</td>
+                                <td>13</td>
+                            </tr>
+                            <tr>
+                                <td>14</td>
+                                <td>15</td>
+                                <td>16</td>
+                                <td>17</td>
+                                <td>18</td>
+                                <td>19</td>
+                                <td>20</td>
+                            </tr>
+                            <tr>
+                                <td>21</td>
+                                <td>22</td>
+                                <td>23</td>
+                                <td>24</td>
+                                <td class="has-appointment-presential">25</td>
+                                <td>26</td>
+                                <td>27</td>
+                            </tr>
+                            <tr>
+                                <td>28</td>
+                                <td>29</td>
+                                <td>30</td>
+                                <td class="has-appointment-online">31</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <button class="nav-btn next">▶</button>
+            </div>
+                <div class="appointment-buttons">
+                    <button class="btn-presential">Consulta Presencial</button>
+                    <button class="btn-online">Consulta On-line</button>
+                </div>
+            </div>
+        </div>
+        <div class="conteudo">
+            <div id="diagnostico-m">
+                <h1>Diagnostico</h1>
+                <div class="diagnostico">
+                    <p>
+                    <br>Paciente D
+                    <br>Consulta Online
+                    <br>22/09/2024 </p><hr>
+                </div>
+                <div class="diagnostico">
+                    <p>
+                    <br>Paciente D
+                    <br>Consulta Online
+                    <br>22/09/2024 </p><hr>
+                </div>
+                <div class="diagnostico">
+                    <p>
+                    <br>Paciente D
+                    <br>Consulta Online
+                    <br>22/09/2024 </p><hr>
+                </div>
+                <div class="diagnostico">
+                    <p>
+                    <br>Paciente D
+                    <br>Consulta Online
+                    <br>22/09/2024 </p><hr>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+</body>
+</html>
