@@ -88,6 +88,7 @@ header #logo_inicio_wrapper p img {
     height: 60px;
 }
 
+/*----Parte do médico----*/
 #content-wrapper {
     height: 100%;
     width: 100%;
@@ -156,3 +157,4 @@ input {
     padding: 10px;
     border-radius: 20px;
 }
+/*----------------------------------------------------------------------------*/
