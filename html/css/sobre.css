@@ -7,6 +7,11 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* Estilo para o Header */
 .header {
     background-color: #c4f0f0;
