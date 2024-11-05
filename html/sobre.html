@@ -11,13 +11,13 @@
     <header>
         <div id="circle"><img src="html/css/images/heart.png" alt=""></div>
         <div id="cabecalho">
-            <img src="logo.png" alt="Logo" class="logo-img">
-            <nav class="menu">
-                <a href="#">Quem Somos</a>
-                <a href="#">Clínicas</a>
-                <a href="#">Médicos</a>
-                <a href="#">Ações</a>
-            </nav>
+            <p>Clinica</p>
+            <ul>
+                <li>Clínicas</li>
+                <li>Médicos</li>
+                <li>Ajuda</li>
+                <li><a href="html/login.html">Login Cadastro</a></li>
+            </ul>
         </div>
     </header>
 
@@ -25,7 +25,7 @@
     <section class="sobre-nos">
         <!-- Título e imagem da seção -->
         <h1>SOBRE NÓS</h1>
-        <img src="sala-de-espera.png" alt="Sala de espera" class="imagem-principal">
+        <img src="css/images/estrutura-clinica.jpg" alt="Sala de espera" class="imagem-principal">
     </section>
 
     <!-- Seção de história e missão -->
@@ -53,9 +53,9 @@
 
     <!-- Seção de atualização -->
     <section class="atualmente">
-        <h2>Atualmente</h2>
-        <p>Hoje estamos localizados em todo o país, com mais de 40 clínicas, com atendimentos diários com os melhores profissionais da área. Em nossos 40 anos, já atendemos mais de 35 mil pacientes, sendo salvas inúmeras vidas, motivo pelo qual continuamos buscando ser referência com toda excelência.</p>
-        <img src="medico-com-coração.png" alt="Médico segurando coração" class="imagem-atual">
+       <div id="atualmente-texto"><h2>Atualmente</h2>
+        <p>Hoje estamos localizados em todo o país, com mais de 40 clínicas, com atendimentos diários com os melhores profissionais da área. Em nossos 40 anos, já atendemos mais de 35 mil pacientes, sendo salvas inúmeras vidas, motivo pelo qual continuamos buscando ser referência com toda excelência.</p></div>
+        <img src="css/images/medico-coração.jpg" alt="Médico segurando coração" class="imagem-atual">
     </section>
 
     <!-- Linha do tempo -->
@@ -63,17 +63,42 @@
         <h2>Linha do Tempo</h2>
         <div class="timeline">
             <!-- Cada div representa um evento na linha do tempo -->
-            <div class="evento">Ano 1</div>
-            <div class="evento">Ano 2</div>
-            <div class="evento">Ano 3</div>
-            <div class="evento">Ano 4</div>
-            <div class="evento">Ano 5</div>
+            <div class="evento">Lorem ipsum dolor sit amet.</div>
+            <div class="evento">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+            <div class="evento">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+            <div class="evento">Lorem ipsum dolor sit amet.</div>
+            <div class="evento">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, quibusdam.</div>
         </div>
     </section>
 
     <!-- Rodapé da página -->
-    <footer class="footer">
-        <p>&copy; 2024 Clínica Alfa. Todos os direitos reservados. Medicina Brasil Ltda. CNPJ: 00.623.343/0003-35</p>
+    <footer>
+        <div>
+            <div>
+                <h5>Contatos</h5>
+                <ul>
+                    <li>Telefone: (11) 3892-2233</li>
+                    <li>WhatsApp: (11) 98271-2233</li>
+                    <li>E-mail: contato@clinica.com </li>
+                </ul>
+            </div>
+            <div>
+                <h5>Horários</h5>
+                <ul>
+                    <li>Seg-Sex: 8h-18h</li>
+                    <li>Sábado: 8h-12h</li>
+                </ul>
+            </div>
+            <div>
+                <h5>Endereço</h5>
+                <ul>
+                    <li>Rua Chile, 125, Jardins, São</li>
+                    <li>Paulo/SP</li>
+                    <li>CEP: 03032-000</li>
+                </ul>
+            </div>
+        </div>
+        <p>Copyright © 2024 Clínica Alfa. Todos os direitos reservados. Medicina Brasil Ltda. CNPJ: 00.623.343/0003-35</p>
     </footer>
 </body>
 </html>
