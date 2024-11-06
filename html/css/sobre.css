@@ -135,7 +135,7 @@ li {
     display: flex;
     justify-content: space-between;
     width: 1200px ;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .card {
@@ -198,16 +198,18 @@ width: 600px;
 
 /* Linha do Tempo */
 .linha-do-tempo {
-    padding: 40px;
+    padding: 8px;
     text-align: center;
-    font-size: 22px;
+    font-size: 16px;
+    font-family:calc();
+    
 }
 
 .linha-do-tempo h2 {
     color: #215f8c;
     margin-bottom: 20px;
     text-align: center;
-    margin: 20px;
+    margin: 30px;
 }
 
 .timeline {
@@ -219,8 +221,8 @@ width: 600px;
 
 .evento {
     background-color: #85c5d3;
-    width: 170px;
-    height: 170px;
+    width: 190px;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -228,6 +230,8 @@ width: 600px;
     color: #fff;
     font-weight: bold;
     position: relative;
+    padding: 20px;
+    margin-bottom: 50px;
 }
 
 /* Adiciona setas entre os eventos */
