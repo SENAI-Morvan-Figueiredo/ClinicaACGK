@@ -15,8 +15,8 @@
             <ul>
                 <li><a href="#calendario-u">Calendário</a></li>
                 <li><a href="#agendamento">Agendamento</a></li>
-                <li><a href="consulta-online-u">Consulta On-line</a></li>
-                <li><a href="diagnostico-u">Diagnóstico</a></li>
+                <li><a href="#consulta-online-u">Consulta On-line</a></li>
+                <li><a href="#diagnostico-u">Diagnóstico</a></li>
             </ul>
         </div>
         <div id="logo_inicio_wrapper">
@@ -26,7 +26,7 @@
         </div>
     </header>
 
-    <main class="content">
+    <section class="content-wrapper">
         <div id="calendario-u" class="conteudo">
             <h1>CALENDÁRIO</h1>
 
@@ -109,26 +109,81 @@
                 </div>
             </div>
         </div>
-        </main>
-
-        <main>
-            <div id="agendamento" class="conteudo">
-
+    
+        <div class="conteudo">
+            <div id="agendamento">
+                <h1>AGENDAMENTOS</h1>
+                <div class="content">
+                <div class="item">
+                <div class="icon">
+                    <!-- Ícone de calendário -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-calendar2" viewBox="0 0 16 16"> 
+                        <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1zm12-3H3v1h10V1z"/>
+                    </svg>
+                </div>
+                <p>Datas</p>
             </div>
-        </main>
-
-        <main>
-            <div id="consulta-online-u" class="conteudo">
-            
+            <div class="item">
+                <div class="box"></div>
+                <p>Sintomas</p>
             </div>
-        </main>
-
-        <main>
-            <div id="diagnostico-u" class="conteudo">
-
             </div>
-        </main>
+            <button>Acompanhamento On-line</button>
+            </div>
+            </div>
+            </div>
         
+            <div class="conteudo">
+            <div id="consulta-online-u">
+                <h1>CONSULTA ONLINE</h1>
+                <div class="user-info">
+                    <div class="user-avatar"></div>
+                    <p>Usuário Nome</p>
+                </div>
+                <div class="consulta-info">
+                    <table>
+                        <tr>
+                            <td>Data da Consulta</td>
+                            <td>Médico</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="descricao-consulta">Descrição da Consulta</td>
+                        </tr>
+                    </table>
+                    <button>Pedir para Reagendar</button>
+                </div>
+                <p class="link">www.googlemeet.com</p>
+            </div>
+        </div>
+        
+        <div class="conteudo">
+           <div id="diagnostico-u">
+            <h1>DIAGNÓSTICOS</h1>
+            <div class="diagnostico">
+                <p>
+                <br>Dr. Heinz
+                <br>Consulta On-line
+                <br>22/09/2024 </p><hr>
+            </div>
+            <div class="diagnostico">
+                <p>
+                <br>Dr. Chucrute
+                <br>Consulta On-line
+                <br>22/09/2024 </p><hr>
+            </div>
+            <div class="diagnostico">
+                <p>
+                <br>Dra. Brinquedo
+                <br>Consulta On-line
+                <br>22/09/2024 </p><hr>
+            </div>
+            <div class="diagnostico">
+                <p>
+                <br>Dr. Dre
+                <br>Consulta On-line
+                <br>22/09/2024 </p><hr>
+            </div>
+        </div>
     </section>
 </body>
 </html>

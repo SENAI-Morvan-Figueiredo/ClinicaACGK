@@ -92,12 +92,7 @@ header #logo_inicio_wrapper p img {
 
 /*-----------------------------Parte do paciente------------------------------------------*/
 
-
-
-/*---------------------------------------------------------------------*/
-
-
-/*------------------Parte do médico--------------------------------*/
+/*------------------MEDICO--------------------------------*/
 #content-wrapper {
     height: 100%;
     width: 100%;
@@ -190,7 +185,6 @@ input {
     align-items: center;
     margin: 20px;
     overflow: break-word;
-
 }
 
 #diagnostico-m .diagnostico p {
@@ -207,9 +201,11 @@ input {
     height: 100px;
     margin: 3px;
 }
-/*----------------------------------------------------------------------------*/
-/*---------Usuario-------------------------------------------------------------------*/
-/* Calendário */
+
+/*---------Usuario---------*/
+
+/*--CALEMDARIO--*/
+
 .content {
     flex: 1;
     padding: 30px;
@@ -390,7 +386,141 @@ h1 {
     }
 }
 
-/*----------------------------------------------------------------------------*/
+/*--AGENDAMENTO--*/
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    width: auto;
+    height: auto;
+}
+
+.box {
+    width: 150px;
+    height: 100px;
+    background-color: #b4e7e4; /* Cor de fundo verde claro */
+}
+
+p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+button {
+    margin-top: 50px;
+    padding: 15px;
+    background-color: #00b894; /* Cor do botão */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #019874; /* Cor do botão ao passar o mouse */
+}
+
+/*--CONSULTA USUARIO--*/
+
+.user-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-avatar {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+
+.user-info p {
+    margin-left: 10px;
+}
+
+.consulta-info {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.descricao-consulta {
+    background-color: #b3e5e5;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #66bfbf;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #55a3a3;
+}
+
+.link {
+    margin-top: 20px;
+}
+
+/*--DIAGNOSTICO USUARIO--*/
+
+#diagnostico-u {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#diagnostico-u .diagnostico {
+    width: 80%;
+    height: fit-content;
+    background-color: #18ABA1;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px;
+    overflow: break-word;
+
+}
+
+#diagnostico-u .diagnostico p {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    top: 5px;
+    overflow: break-word;
+    position: relative;
+}
+
+#diagnostico-u .diagnostico hr {
+    border: 1px solid black;
+    height: 100px;
+    margin: 3px;
+}
+
 /*---------ADM-------------------------------------------------------------------*/
 header #tabs_conta_adm_wrapper {
     height: 50%;
