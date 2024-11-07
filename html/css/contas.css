@@ -553,7 +553,7 @@ header #tabs_conta_adm_wrapper ul {
     display: inline-grid;
     grid-template-columns: auto auto auto auto;
     background-color: #ffffff00;
-    padding: 120px;
+    padding: 60px;
     gap: 10px 10px;
 }
     .caixa-cadastro { 

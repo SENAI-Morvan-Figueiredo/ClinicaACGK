@@ -11,6 +11,7 @@
 
 body {
     background-color: #18ABA1;
+    overflow-x: hidden;
 }
 
 a {
@@ -230,6 +231,7 @@ li {
     width: 100vw;
     display: flex;
     align-items: center;
+    text-align: justify;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
 }
@@ -238,7 +240,7 @@ li {
     scroll-snap-align: center;
     box-sizing: border-box;
     display: flex;
-    width: 100vw;
+    width: 99vw;
     text-align: center;
     flex-shrink: 0;
 }
@@ -254,6 +256,11 @@ li {
     border-radius: 50%;
     position: absolute;
     background-color: #18ABA1;
+}
+
+#doutores p {
+    text-align: justify;
+    font-size: 1em;
 }
 
 #extras {
