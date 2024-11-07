@@ -226,7 +226,7 @@ li {
 #doutores {
     padding: 5px;
     background-color: white;
-    height: 400px;
+    height: 650px;
     column-gap: 30px;
     display: flex;
     flex-direction: row;
@@ -235,8 +235,8 @@ li {
 }
 
 #doutores img {
-    border-radius: 100%;
-    border: 3px solid black;
+    border-radius:100%;
+    border: 2px solid black;
 }
 
 #doutores .circle {
