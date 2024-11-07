@@ -226,17 +226,26 @@ li {
 #doutores {
     padding: 5px;
     background-color: white;
-    height: 400px;
-    column-gap: 30px;
+    height: 650px;
+    width: 100vw;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+#doutores .doutor {
+    scroll-snap-align: center;
+    box-sizing: border-box;
+    display: flex;
+    width: 100vw;
+    text-align: center;
+    flex-shrink: 0;
 }
 
 #doutores img {
-    border-radius: 100%;
-    border: 3px solid black;
+    border-radius:100%;
+    border: 2px solid black;
 }
 
 #doutores .circle {
