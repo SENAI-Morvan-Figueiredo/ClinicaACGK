@@ -90,6 +90,27 @@ header #logo_inicio_wrapper p img {
     height: 60px;
 }
 
+.tabs {
+    position: relative;
+}
+
+.tabs::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0;
+    background-image: linear-gradient(to right, rgb(0, 0, 0,0.3),rgb(128, 128, 128, 0.3));
+    transition: 0.3s;
+}
+
+.tabs:hover {
+    color: white;
+}
+
+.tabs:hover::before {
+    width: 100%;
+}
+
 /*-----------------------------Parte do paciente------------------------------------------*/
 
 /*------------------MEDICO--------------------------------*/
