@@ -549,12 +549,19 @@ header #tabs_conta_adm_wrapper ul {
     font-style: bold;  
     
 }
-.caixa-cadastro {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
+.cadastro {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #ffffff00;
+    padding: 120px;
+    gap: 10px 10px;
 }
+    .caixa-cadastro { 
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+
 /*----------------------------------------------------------------------------*/
