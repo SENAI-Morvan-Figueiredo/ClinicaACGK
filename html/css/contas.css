@@ -191,7 +191,7 @@ input {
     text-align: center;
     display: flex;
     align-items: center;
-    top: 5px;
+    bottom: 10px;
     overflow: break-word;
     position: relative;
 }
@@ -562,6 +562,50 @@ header #tabs_conta_adm_wrapper ul {
     padding: 20px;
     font-size: 20px;
     text-align: center;
-  }
+    border-radius: 20px;
+}
+
+#paciente {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ #paciente .caixa {
+    box-shadow:2px 2px 5px #019874;
+    position: relative;
+    height: 45vh;
+    width: 50vw;
+    background-color: #a1efe9;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+ }
+
+ #paciente .caixa ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style: none;
+    height: 100%;
+ }
+
+ #paciente .caixa ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ #paciente .caixa ul li .bloco {
+    background-color: rgb(211, 203, 203);
+    border: 1px solid grey;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 10em;
+    height: 1.2em;
+ }
+
 
 /*----------------------------------------------------------------------------*/
