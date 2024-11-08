@@ -92,6 +92,7 @@ header #logo_inicio_wrapper p img {
 
 .tabs {
     position: relative;
+    width: 100%;
 }
 
 .tabs::before {
@@ -109,6 +110,8 @@ header #logo_inicio_wrapper p img {
 
 .tabs:hover::before {
     width: 100%;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
 }
 
 /*-----------------------------Parte do paciente------------------------------------------*/
