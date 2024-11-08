@@ -593,6 +593,7 @@ header #tabs_conta_adm_wrapper ul {
     height: 70px;
     margin-top: 0px;
     margin-left: 4px;
+    text-align: center;
 }
 
 .form-grid .full-width {
@@ -630,7 +631,7 @@ header #tabs_conta_adm_wrapper ul {
     transform: translate(-25px);
     justify-content: space-between;
 }
-#cadastro-medico {
+#cadastropaciente {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -638,8 +639,8 @@ header #tabs_conta_adm_wrapper ul {
     align-items: center;
 }
 
-#cadastro-medico h1 {
-    color: black;
+#cadastropaciente h1 {
+    color: rgb(0, 0, 0);
     font-size: 40px;
     font-style: bold;  
 }
@@ -664,6 +665,7 @@ header #tabs_conta_adm_wrapper ul {
     height: 70px;
     margin-top: 0px;
     margin-left: 4px;
+    text-align: center;
 }
 
 .form-grid .full-width {
