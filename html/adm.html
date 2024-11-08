@@ -13,7 +13,7 @@
         </div>
         <div id="tabs_conta_adm_wrapper">
             <ul>
-                <li><a href="#cadastro-medico">Cadastro Médicos</a></li>
+                <li><a href="#cadastromedico">Cadastro Médicos</a></li>
                 <li><a href="#cadastro-paciente">Cadastro Pacientes</a></li>
                 <li><a href="#o">Agendamentos Reagendamentos</a></li>
                 <li>Chat</li>
@@ -27,9 +27,10 @@
         </div>
        
     </header> 
+    <div id="cadastro-medico">
+        <h1>Cadastro de Médicos</h1>
         <div id="content-wrapper">
-            <div id="cadastro-medico" class="conteudo">
-                <h1>Cadastro de Médicos</h1>
+            <div class="conteudo" id="cadastromedico">
                 <form class="form-grid">
                     <input type="text" placeholder="Nome">
                     <input type="text" placeholder="CRM">
@@ -159,6 +160,47 @@
                 </div>
             </div>
         </div>
-    
+
+        <div id="cadastropaciente">
+            <h1>Cadastro de Pacientes</h1>
+            <div id="content-wrapper">
+                <div class="conteudo" id="cadastro-paciente">
+                    <form class="form-grid">
+                        <input type="text" placeholder="Nome">
+                        <input type="text" placeholder="RG">
+                        <input type="text" placeholder="CPF">
+                        <input type="date" placeholder="Data de Nascimento">
+                        
+                        <select><option>Sexo</option>
+                            <option value="Homem cisgênero">Homem cisgênero</option>
+                            <option value="Mulher cisgênero">Mulher cisgênero</option>
+                            <option value="Homem transgênero">Homem transgênero</option>
+                            <option value="Mulher transgênero">Mulher transgênero</option>
+                            <option value="Não binário">Não binário</option>
+                        </select>
+                        <input type="text" placeholder="CEP">
+                        <input type="text" placeholder="Endereço">
+                        <input type="text" placeholder="UF">
+                        
+                        <input type="text" placeholder="Bairro">
+                        <input type="text" placeholder="Número">
+                        <input type="text" placeholder="Complemento">
+                        <input type="text" placeholder="Cidade">
+                        
+                        <select><option>Pronome</option>
+                            <option value="Ele/Dele">Ele/Dele</option>
+                            <option value="Ela/Dela">Ela/Dela</option>
+                            <option value="Elu/Delu">Elu/Delu</option>
+                        </select>
+                        <input type="text" placeholder="Telefone Celular">
+                        <input type="text" placeholder="Telefone Residencial">
+                        <input type="text" placeholder="Outro">
+                        <div class="image-upload full-width">
+                            <span>Tamanho máximo: 5mb</span>
+                        </div>                        
+                    </form>
+                </main>
+            </div>
+    </body>
 </body>
 </html>
