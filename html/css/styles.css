@@ -99,6 +99,7 @@ li {
     background-size: 100%;
     border-top-right-radius: 300px;
     border-bottom-right-radius: 300px;
+    box-shadow: -2px 0px 5px rgb(137, 130, 130) inset;
 }
 
 #clinica {
