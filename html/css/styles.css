@@ -245,7 +245,8 @@ li {
 
 #doutores img {
     border-radius:100%;
-    border: 2px solid black;
+    border: 2px solid black;/
+    ´/
 }
 
 #doutores .circle {
