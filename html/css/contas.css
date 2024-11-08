@@ -90,6 +90,30 @@ header #logo_inicio_wrapper p img {
     height: 60px;
 }
 
+.tabs {
+    position: relative;
+    width: 100%;
+}
+
+.tabs::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0;
+    background-image: linear-gradient(to right, rgb(0, 0, 0,0.3),rgb(128, 128, 128, 0.3));
+    transition: 0.3s;
+}
+
+.tabs:hover {
+    color: white;
+}
+
+.tabs:hover::before {
+    width: 100%;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
 /*-----------------------------Parte do paciente------------------------------------------*/
 
 /*------------------MEDICO--------------------------------*/
@@ -191,7 +215,7 @@ input {
     text-align: center;
     display: flex;
     align-items: center;
-    top: 5px;
+    bottom: 10px;
     overflow: break-word;
     position: relative;
 }
@@ -556,7 +580,7 @@ header #tabs_conta_adm_wrapper ul {
     row-gap: 5px;
     column-gap: 10px;
     align-content: center;
-    padding-left: 150px;
+    padding-left: 130px;
 }
 
 .form-grid input,
