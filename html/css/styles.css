@@ -11,6 +11,7 @@
 
 body {
     background-color: #18ABA1;
+    overflow-x: hidden;
 }
 
 a {
@@ -98,6 +99,7 @@ li {
     background-size: 100%;
     border-top-right-radius: 300px;
     border-bottom-right-radius: 300px;
+    box-shadow: -2px 0px 5px rgb(137, 130, 130) inset;
 }
 
 #clinica {
@@ -230,6 +232,7 @@ li {
     width: 100vw;
     display: flex;
     align-items: center;
+    text-align: justify;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
 }
@@ -238,15 +241,17 @@ li {
     scroll-snap-align: center;
     box-sizing: border-box;
     display: flex;
-    width: 100vw;
+    width: 99vw;
     text-align: center;
     flex-shrink: 0;
 }
 
 #doutores img {
     border-radius:100%;
-    border: 2px solid black;/
-    ´/
+    border: 2px solid black;
+    height: 400px;
+    width: 250px;
+    object-fit: cover;
 }
 
 #doutores .circle {
@@ -255,6 +260,11 @@ li {
     border-radius: 50%;
     position: absolute;
     background-color: #18ABA1;
+}
+
+#doutores p {
+    text-align: justify;
+    font-size: 1em;
 }
 
 #extras {

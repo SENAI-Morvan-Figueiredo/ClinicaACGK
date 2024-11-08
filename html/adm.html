@@ -13,8 +13,8 @@
         </div>
         <div id="tabs_conta_adm_wrapper">
             <ul>
-                <li>Cadastro Médicos</li>
-                <li>Cadastro Pacientes</li>
+                <li><a href="#cadastro-medico">Cadastro Médicos</a></li>
+                <li><a href="#cadastro-paciente">Cadastro Pacientes</a></li>
                 <li>Agendamentos<br> <br>Reagendamentos</li>
                 <li>Chat</li>
                 <li>Ouvidoria</li>
@@ -23,37 +23,74 @@
         <div id="logo_inicio_wrapper">
                 <p><img src="css/images/home.png" alt="casa-icone">inicio</p>
             <hr>
-            <p>Clinica Lorem<img style="height: 120px;" src="css/images/heart.png" alt="logo-clinica"></p>
+            <p>Clinica Hans<img style="height: 120px;" src="css/images/heart.png" alt="logo-clinica"></p>
         </div>
        
     </header> 
-    <div id="cadastro-medico">
-        <h1>Cadastro de Médicos</h1>
         <div id="content-wrapper">
-            <div class="conteudo"><!--Coloque cada tab da pagina dentro de um div com classe conteudo-->>
-                <div class="caixa-cadastro">
-                    <div class="caixa-cadastro">Nome</div>
-                    <div class="caixa-cadastro">CRM</div>
-                    <div class="caixa-cadastro">CPF</div>
-                    <div class="caixa-cadastro">Data de Nascimento</div>
-
-                    <div class="caixa-cadastro">CEP</div>
-                    <div class="caixa-cadastro">Cidade</div>
-                    <div class="caixa-cadastro">UF</div>
-                    <div class="caixa-cadastro">Bairro</div>
-                    <div class="caixa-cadastro">Endereço</div>
-                    <div class="caixa-cadastro">Número</div>
-                    <div class="caixa-cadastro">Complemento</div>
-                    <div class="caixa-cadastro">Telefone Celular</div>
-                    <div class="caixa-cadastro">Telefone Residencial</div>
-                    <div class="caixa-cadastro">Outro contato</div>
-                    <div class="caixa-cadastro">E-mail</div>
-                    <div class="caixa-cadastro">Google Meet</div>
-                    <div class="caixa-cadastro"></div>
-                    <div class="caixa-cadastro"></div>
-                </div>
+            <div id="cadastro-medico" class="conteudo">
+                <h1>Cadastro de Médicos</h1>
+                <form class="form-grid">
+                    <input type="text" placeholder="Nome">
+                    <input type="text" placeholder="CRM">
+                    <input type="text" placeholder="CPF">
+                    <input type="date" placeholder="Data de Nascimento">
+                    
+                    <select><option>Sexo</option>
+                        <option value="Homem cisgênero">Homem cisgênero</option>
+                        <option value="Mulher cisgênero">Mulher cisgênero</option>
+                        <option value="Homem transgênero">Homem transgênero</option>
+                        <option value="Mulher transgênero">Mulher transgênero</option>
+                        <option value="Não binário">Não binário</option>
+                    </select>
+                    <input type="text" placeholder="CEP">
+                    <input type="text" placeholder="Endereço">
+                    <input type="text" placeholder="UF">
+                    
+                    <input type="text" placeholder="Bairro">
+                    <input type="text" placeholder="Número">
+                    <input type="text" placeholder="Complemento">
+                    <input type="text" placeholder="Cidade">
+                    
+                    <select><option>Pronome</option>
+                        <option value="Ele/Dele">Ele/Dele</option>
+                        <option value="Ela/Dela">Ela/Dela</option>
+                        <option value="Elu/Delu">Elu/Delu</option>
+                    </select>
+                    <input type="text" placeholder="Telefone Celular">
+                    <input type="text" placeholder="Telefone Residencial">
+                    <input type="text" placeholder="Outro">
+                    
+                    <input type="email" placeholder="E-mail" class="two-columns">
+                    <input type="text" placeholder="Google Meet" class="two-columns">
+                    
+                    <select class="full-width"><option>Especialidade</option>
+                        <option value="Arritmias">Arritmias</option>
+                        <option value="Cardiopatias congênitas no adulto">Cardiopatias congênitas no adulto</option>
+                        <option value="Dislipidemia">Dislipidemia</option>
+                        <option value="Valvopatias">Valvopatias</option> 
+                        <option value="Hipertensão arterial">Hipertensão arterial</option> 
+                        <option value="Diabetes Mellitus">Diabetes Mellitus</option>
+                    </select>
+                    <div class="image-upload full-width">
+                        <span>Tamanho máximo: 5mb</span>
+                    </div>
+                    <select class="full-width"><option>Clínica</option>
+                        <option value="Zona Leste-SP">Zona Leste-SP</option>
+                        <option value="Zona Oeste-SP">Zona Oeste-SP</option>
+                        <option value="Zona Norte-SP">Zona Norte-SP</option>
+                        <option value="Zona Sul-SP">Zona Sul-SP</option>
+                        <option value="ABC-SP">ABC-SP</option>
+                        <option value="Zona Sul-RJ">Zona Sul-RJ</option>
+                        <option value="Zona Norte-RJ">Zona Norte-RJ</option>
+                        <option value="Zona Oeste-RJ">Zona Oeste-RJ</option>
+                    </select>
+                    
+                </form>
             </div>
-        </div>
+            <div id="cadastro-paciente" class="conteudo">
+                
+            </div>
         </div>
     
 </body>
