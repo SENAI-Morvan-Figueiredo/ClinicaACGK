@@ -248,8 +248,10 @@ li {
 
 #doutores img {
     border-radius:100%;
-    border: 2px solid black;/
-    ´/
+    border: 2px solid black;
+    height: 400px;
+    width: 250px;
+    object-fit: cover;
 }
 
 #doutores .circle {
