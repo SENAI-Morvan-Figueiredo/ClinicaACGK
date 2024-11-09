@@ -15,7 +15,7 @@
             <ul>
                 <li><a href="#cadastro-medico">Cadastro Médicos</a></li>
                 <li><a href="#cadastro-paciente">Cadastro Pacientes</a></li>
-                <li><a href="#Agendamento">Agendamentos/Reagendamentos</a></li>
+                <li><a href="#Agendamento">Agendamentos Reagendamentos</a></li>
                 <li>Chat</li>
                 <li>Ouvidoria</li>
             </ul>
@@ -126,42 +126,33 @@
                 </form>
             </div>
     
-            <div class="conteudo" id="Agendamento">      
-                <main class="main-content">
-                    <h1>Agendamento/Reagendamento</h1>
-                    <div class="form-container">
-                        <button class="patient">Paciente</button>
-                        <button class="doctor">Médico</button>
-                        <div class="form-fields">
-                            <label for="billing">Cobrança</label>
-                            <select id="billing">
-                                <option>...</option>
-                            </select>
-                            
-                            <label for="consultation">Tipo de consulta</label>
-                            <select id="consultation">
-                                <option>...</option>
-                            </select>
-                            
-                            <label for="date">Data</label>
-                            <input type="text" id="date" placeholder="Data">
-                            
-                            <label for="time">Horário</label>
-                            <input type="text" id="time" placeholder="Horário">
-                            
-                            <button class="reschedule">Reagendar</button>
-        
-                            <input type="text" placeholder="E-mail" class="email">
-                            <input type="text" placeholder="Telefone" class="phone">
-                            <textarea placeholder="Motivo de reagendamento" class="reason"></textarea>
-                        </div>
-                        <div class="form-actions">
-                            <button class="confirm">Confirmar</button>
-                            <button class="cancel">Cancelar</button>
-                        </div>
+            <div class="conteudo" id="Agendamento">
+                <h1>Agendamento/Reagendamento</h1>
+                <form class="form-grid">
+                    <div class="form-actions-1">
+                        <button class="Médico">Médico</button>
+                        <button class="Paciente">Paciente</button>
                     </div>
-                </main>
-            </div>
-        </section>
+                    
+                    <select><option>Cobrança</option>
+                        <option value="Plano de Saúde">Plano de Saúde</option>
+                        <option value="Consulta Avulsa">Consulta Avulsa</option>
+                    </select>
+                    <select><option>Tipo de Consulta</option>
+                        <option value="Consulta Presencial">Consulta Presencial</option>
+                        <option value="Consulta Online">Consulta Online</option>
+                    </select>
+                    <input type="date" placeholder="Data">
+                    <input type="time" placeholder="horário">
+                    <button class="reschedule">Reagendar</button>
+                    <input type="text" placeholder="Telefone Celular">
+                    <input type="text" placeholder="E-mail">
+                    <textarea placeholder="Motivo de reagendamento" class="reason"></textarea>
+                    <div class="form-actions-2">
+                        <button class="confirm">Confirmar</button>
+                        <button class="cancel">Cancelar</button>
+                    </div>
+                </form>
+            </div>   
 </body>
 </html>

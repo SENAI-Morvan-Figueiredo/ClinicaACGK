@@ -690,75 +690,72 @@ header #tabs_conta_adm_wrapper ul {
     height: 50px;
 }
 /*------------------------------------ADM - agendamento ----------------------------------------*/
-.form-container {
+header #tabs_conta_adm_wrapper {
+    height: 50%;
+    font-size: 1.2em;
+}
+
+header #tabs_conta_adm_wrapper ul {
+    height: 100%;
+    list-style: none;
     display: flex;
     flex-direction: column;
+    transform: translate(-25px);
+    justify-content: space-between;
+}
+#Agendamento {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
-.patient, .doctor {
-    background-color: #aee4e4;
-    border: none;
-    padding: 15px 30px;
-    margin: 5px;
-    cursor: pointer;
-    font-size: 1em;
+#Agendamento h1 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-style: bold;  
 }
 
-.form-fields {
+/* Estilo do grid do formulário */
+.form-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    width: 100%;
-    max-width: 600px;
-    margin-top: 20px;
-}
-
-.form-fields label {
+    grid-template-columns: 300px 300px 300px 300px;
+    row-gap: 5px;
+    column-gap: 10px;
+    justify-content: center;
+    padding: 100px;
     grid-column: span 4;
 }
 
-.form-fields input, .form-fields select, .form-fields textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
+.form-grid input,
+.form-grid select {
+    border: 1px solid #A0D6D3;
     border-radius: 5px;
+    background-color: #A0D6D3;
+    color: #333;
+    font-size: 16px;
+    height: 70px;
+    margin-top: 0px;
+    margin-left: 4px;
+    text-align: center;
 }
 
-.email, .phone {
+.form-actions-1 {
     grid-column: span 2;
 }
 
-.reason {
-    grid-column: span 2;
-    height: 80px;
+.form-actions-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.reschedule {
-    grid-column: span 2;
-    background-color: #aee4e4;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
+.form-actions-2 .confirm {
+    background-color: rgb(66, 248, 42);
+    color: black;
 }
-
-.form-actions {
-    margin-top: 20px;
-}
-
-.confirm {
-    background-color: #00cc44;
-    color: white;
-    border: none;
-    padding: 15px 30px;
-    margin-right: 10px;
-    cursor: pointer;
-}
-
-.cancel {
-    background-color: #ff3333;
-    color: white;
-    border: none;
-    padding: 15px 30px;
-    cursor: pointer;
+.form-actions-2 .cancel {
+    background-color: rgb(255, 0, 0);
+    color: black;
 }
