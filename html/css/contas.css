@@ -631,7 +631,7 @@ header #tabs_conta_adm_wrapper ul {
     transform: translate(-25px);
     justify-content: space-between;
 }
-#cadastropaciente {
+#cadastro-paciente {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -639,8 +639,8 @@ header #tabs_conta_adm_wrapper ul {
     align-items: center;
 }
 
-#cadastropaciente h1 {
-    color: rgb(0, 0, 0);
+#cadastro-paciente h1 {
+    color: rgb(  0, 0, 0);
     font-size: 40px;
     font-style: bold;  
 }
