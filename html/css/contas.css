@@ -615,6 +615,21 @@ header #tabs_conta_adm_wrapper ul {
     color: #1d0989;
     font-size: 14px;
     height: 50px;
+    content: "teste";
+    transition: 0.2s ease-in;
+}
+
+.form-grid .image-upload:active {
+    position: fixed;
+    left: 25%;
+    height: 40vh;
+    width: 60vw;
+    border:4px black dashed;
+    background-color: rgba(216, 210, 210, 0.2);
+    backdrop-filter: blur(10px);
+    font-size: 4em;
+    color: white;
+    border-radius: 50px;
 }
 /*---------------------------------- ADM-paciente --------------------------------------*/
 header #tabs_conta_adm_wrapper {
