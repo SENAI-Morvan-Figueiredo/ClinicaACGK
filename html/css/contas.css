@@ -704,4 +704,76 @@ header #tabs_conta_adm_wrapper ul {
     font-size: 14px;
     height: 50px;
 }
-/*----------------------------------------------------------------------------*/
+/*------------------------------------ADM - agendamento ----------------------------------------*/
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.patient, .doctor {
+    background-color: #aee4e4;
+    border: none;
+    padding: 15px 30px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.form-fields {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.form-fields label {
+    grid-column: span 4;
+}
+
+.form-fields input, .form-fields select, .form-fields textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.email, .phone {
+    grid-column: span 2;
+}
+
+.reason {
+    grid-column: span 2;
+    height: 80px;
+}
+
+.reschedule {
+    grid-column: span 2;
+    background-color: #aee4e4;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.form-actions {
+    margin-top: 20px;
+}
+
+.confirm {
+    background-color: #00cc44;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.cancel {
+    background-color: #ff3333;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+}
