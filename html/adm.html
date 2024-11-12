@@ -129,36 +129,34 @@
     
             <div class="conteudo" id="Agendamento">      
                 <main class="main-content">
-                    <h1>Agendamento/Reagendamento</h1>
-                    <div class="form-container">
-                        <button class="patient">Paciente</button>
-                        <button class="doctor">Médico</button>
+                    <h1 >Agendamento/Reagendamento</h1>
+                    <div class="form-container"> 
+                        <div id="contas_wraper">
+                        <button class="paciente">Paciente</button>
+                        <button class="medico">Médico</button></div>
                         <div class="form-fields">
-                            <label for="billing">Cobrança</label>
-                            <select id="billing">
-                                <option>...</option>
+                            <select><option>Cobrança</option>
+                                <option value=""></option>
                             </select>
                             
-                            <label for="consultation">Tipo de consulta</label>
-                            <select id="consultation">
-                                <option>...</option>
+                            <select><option>Tipo de cobrança</option>
+                                <option value="Presencial">Presencial</option>
+                                <option value="Online">Online</option>
                             </select>
                             
-                            <label for="date">Data</label>
-                            <input type="text" id="date" placeholder="Data">
+                            <input type="date" placeholder="Data">
                             
-                            <label for="time">Horário</label>
-                            <input type="text" id="time" placeholder="Horário">
+                            <input type="time" placeholder="Horário">
                             
-                            <button class="reschedule">Reagendar</button>
+                            <button class="reagendar">Reagendar</button>
         
-                            <input type="text" placeholder="E-mail" class="email">
-                            <input type="text" placeholder="Telefone" class="phone">
-                            <textarea placeholder="Motivo de reagendamento" class="reason"></textarea>
+                            <div id="contas_wraper"><input type="text" placeholder="E-mail" class="email"></div>
+                            <textarea placeholder="Motivo de reagendamento" class="Motivo"></textarea>
+                            <div id="contas_wraper"><input type="text" placeholder="Telefone" class="celular"></div>
                         </div>
                         <div class="form-actions">
-                            <button class="confirm">Confirmar</button>
-                            <button class="cancel">Cancelar</button>
+                            <button class="confirmar">Confirmar</button>
+                            <button class="cancelar">Cancelar</button>
                         </div>
                     </div>
                 </main>
