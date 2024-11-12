@@ -237,6 +237,8 @@ li {
 }
 
 #doutores .doutor {
+    display: flex;
+    justify-content: space-between;
     scroll-snap-align: center;
     box-sizing: border-box;
     display: flex;
@@ -264,6 +266,7 @@ li {
 #doutores p {
     text-align: justify;
     font-size: 1em;
+    width: 80%;
 }
 
 #extras {
