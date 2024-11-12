@@ -84,22 +84,21 @@ li {
 }
 
 #nome_clinica_imagem {
+    position: relative;
+    height: 65vh;
     width: 100%;
     display: inline-flex;
     background-image: url(html/images/consultamed.jpg);
 }
 
-#nome_clinica_imagem #imagem {
-    z-index: -2;
-    position:absolute;
-    width: 60%;
-    height: 500px;
-    background-image: url(images/consultamed.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    border-top-right-radius: 300px;
-    border-bottom-right-radius: 300px;
-    box-shadow: -2px 0px 5px rgb(137, 130, 130) inset;
+#nome_clinica_imagem img {
+    position: absolute;
+    width: clamp(50%,60%,50%);
+    height: 100%;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 40%;
+    object-fit: fill;
+    box-shadow: 3px 3spx 10px white inset;
 }
 
 #clinica {
